@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'neutral-face';
+    src: url(./fonts/NeutralFace.woff);
+   
+    font-family: 'neutral-face-bold';
+    src: url(./fonts/NeutralFace-Bold.woff);
+}
+
+*{
+    margin: 0;
+    /* font-family:'neutral-face'; */
+    /* box-sizing: border-box; */
+}
+
+
+header{
+    width: 100vw;
+    position: absolute;
+    /* z-index: 10; */
+    background-color: black;
+    font-family: 'neutral-face';
+}
+
+.gnb{
+    width: 90vw;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.home{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+}
+
+.menu{
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+}
+
+.menu a {
+    margin-left: 20px;
+    opacity: 0.8;
+}
+
+.menu a:hover{
+    opacity: 1;
+}
+
+.mainbanner{
+    width: 100vw;
+    height: 500px;
+
+    background-color: #5058AB;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 160px;
+}
+
+
+.mainbanner h1{
+    text-align:center;
+    width: 100%;
+    padding: auto 0px;
+    font-family: 'neutral-face-bold';
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 90px;
+    text-align: center;
+}
+
+.fundwrap{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width:1200px;
+    flex-wrap: wrap;
+    flex:4;
+    margin-bottom: 80px;
+    gap: 80px 20px;
+    }
+
+.fundcon{
+    display: flex;
+    width: 285px;
+    height: 408px;
+    flex-direction: column;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    cursor: pointer;
+
+    transition: all ease 0.5s;
+}
+
+.fundcon:hover{
+    transform: scale(1.1) ;
+    transition: all ease 0.5s;
+}
+
+.fundwrap .fundcon:nth-child(1) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/b2165c65a920c2b9757ce3227412145a173cc526/67ba9bd2464adcfa2915808a38f5d6dbc393f01b/68fcda2526b8950675614ddfa9a10417f1c3fbc7/d35f8e22-4bef-4593-a871-d99d165f173e.png?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=e5fc05b335d0a6802491911225aeeefe);
+}
+.fundwrap .fundcon:nth-child(2) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/b2165c65a920c2b9757ce3227412145a173cc526/ddcba3978ef44c846ed5c3cd7cc75f199a7b5c71/a570211fe31e64215b077fde224eb9e985bceef1/1380837e-921a-44f8-99b7-762516246a8f.png?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=26f0f7d0f3284657033977af1be3294d);
+}
+.fundwrap .fundcon:nth-child(3) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/4c608c29568ca587a43b7ad7276f846c7edbafa8/8e608c2704d6400ed7f8cc673578c15b82806ba8/13e81a6b75dcdfba80868db5aef380ced90e637e/28d5cf46-0e6f-402d-9177-5516cc82a284.png?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=5ebfa6839c5814171f1a1c94aa1d095d);
+}
+.fundwrap .fundcon:nth-child(4) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/9f0e816d04522c2050c5dcc27b1f45f22ad0ec70/1ee57dd7cf62c82db4a9f1981a19fbff81e06d6f/2dcaf673e1febacac3a04a425f8c069b390dd095/9cf568df-9571-4aae-a0dc-18d161ffcc37.png?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=0e867b6d6e86a2df490827262358b1d6);
+}
+.fundwrap .fundcon:nth-child(5) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/a355e78c8d8c2eb9114a95507aa717c7f285acc7/77c62cc3304c07e62959d3fb09525dd4369837b6/3300da521920577e1b0ca744455d34de1ceaba71/ddb97cc0-698d-4ac9-8886-6519a07d43d2.jpeg?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=304ee2ff6e3aae1d422e0535712791a0);
+}
+.fundwrap .fundcon:nth-child(6) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/476ef563920bd9ab14fce9f79dee194618e4146d/7f6e8d8a2460629ab7bc98bb792d460ef01912b4/7e76e1994213938f1c1ef71bf84efcd712c960d0/3ba23f61-5144-48bb-9898-a28c7a6c02ed.jpeg?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=28adb11307e65dc18bbcfc3fcfed8e51);
+}
+.fundwrap .fundcon:nth-child(7) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/9f0e816d04522c2050c5dcc27b1f45f22ad0ec70/05d847473f5298691a6e895383dd922aa81fe078/b05c7370e3c54d13d2eaa0a96e52b001668e7103/2daa4cd7-01bb-467c-ac9d-777d54919bbb.png?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=f95d272f6c5a35dc031b31cef4f55abc);
+}
+.fundwrap .fundcon:nth-child(8) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/9f0e816d04522c2050c5dcc27b1f45f22ad0ec70/db06df77b3a3a3e9e8b8df802ecb877cfea4ed72/acd9458cd73db3de1e5d6676c7497dbd1eb5f126/cab3b8b9-546d-4de7-8a67-cb1ffdb0fc95.jpeg?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=7d76ed401715317a3d711d0c3fb9d4f0);
+}
+.fundwrap .fundcon:nth-child(9) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/a7738b65bdcea15bda028b4589da7b4fa0262c71/a604ed7c557b45be21e8e9986058ab16aba32f6a/c65ff83c6282b20dd2839bba1c528b3edeca6f1a/d00cfc32-ea21-4607-a26c-ea86423d43c3.jpeg?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=e2f0722e760ed2f407f30539bdfe7ea0);
+}
+.fundwrap .fundcon:nth-child(10) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/d70ac90feb2c2cae837c54c153027f303f24057a/333cb7b7c4f689ab15fc5e9dd2876716adb17e5d/7a892b18efc4a89a214cba9c57e6dc4cf54f77f2/517279ef-4dff-4066-b4b4-934cca5b849a.png?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=8827bb53bc87ea4cc3d10c3be37f1894);
+}
+.fundwrap .fundcon:nth-child(11) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/ad389f2aa5f7561feb028d1c8116636a68b15d5c/0b9790a1ffb4f5927a1861e073ce5e1b24b6f447/25e0cce68ea6ab27374c3942c1342bb22899afbd/79d0e64f-c04a-46fd-95e7-99546804e2c4.png?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=3cc7cb76b06927c3a7f695265d8eaee5);
+}
+.fundwrap .fundcon:nth-child(12) .fundimg {
+    background-image: url(https://tumblbug-pci.imgix.net/9211fbd29590d27ca2b6c736f7f78692fa255cf8/326f0b30dedd61b1b4ab402a546ed23ff763b676/d11cd6314fa8626f1d0909a7a1cce2555e463de0/cebb70b9-9d02-4f2f-b772-0fa9374950e6.png?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=32a360c2094f71e71a3f5e7349ef1a4f);
+}
+
+.fundimg{
+    /* z-index: 0; */
+    width:285px;
+    height: 234px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+
+/* fundcon에 적용한 r은 왜 안먹는지 ..  */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 16px;
+}
+
+.category{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    color: #3D3D3D;
+ 
+    padding-left: 12px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #3D3D3D;
+
+    padding-left: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #9E9E9E;
+    
+    padding-left: 12px;
+    margin-bottom: 16px;
+}
+
+.percent{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FF5757;
+
+    text-align: end;
+    padding-right: 12px;
+}
+
+.footer {
+    clear: both;
+    padding-top:28px;
+    width: 100vw;
+    height: 44px;
+    text-align: center;
+    background-color: black;
+    color:#FFFFFF;
+    font-size: 12px;
+  }

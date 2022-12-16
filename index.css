@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'neutral-face';
+    src: url(./fonts/NeutralFace.woff);
+   
+    font-family: 'neutral-face-bold';
+    src: url(./fonts/NeutralFace-Bold.woff);
+}
+
+*{
+    margin: 0;
+}
+
+
+.mainbanner { 
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+    /* margin: 0px auto;  */
+    position: absolute; 
+    z-index: -999;
+}
+
+video { 
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+ 
+}
+
+.banner-text { 
+    position: absolute; 
+    top: 18%; 
+    width: 100%; 
+}
+
+.banner-text p { 
+    /* margin-top: -120px;  */
+    line-height: 90px;
+    margin-left: 100px;
+    /* text-align: center;  */
+    font-size: 90px; 
+    color: #ffffff; 
+    font-family:'neutral-face-bold';
+}
+
+.gnb_bottom{
+    z-index: 999;
+    width: 100%;
+    clear: both;
+    position: absolute;  
+    bottom: 0;
+    left: 0;
+}
+
+.gnb_bottom a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding-left: 36px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gnb_bottom a:hover:not(.current){
+    background-color:black;
+    color:white;
+}
+.gnb_bottom a:nth-child(1){
+    background-color: #FEFFE3;
+}
+.gnb_bottom a:nth-child(2){
+    background-color: #E46767;
+}
+.gnb_bottom a:nth-child(3){
+    background-color: #5058AB;
+}
+.gnb_bottom a:nth-child(4){
+    background-color:  #5095AB;
+}
+
+ 

@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'neutral-face';
+    src: url(./fonts/NeutralFace.woff);
+   
+    font-family: 'neutral-face-bold';
+    src: url(./fonts/NeutralFace-Bold.woff);
+}
+
+*{
+    margin: 0;
+    font-family:'neutral-face';
+    /* box-sizing: border-box; */
+}
+
+
+header{
+    width: 100vw;
+    position: absolute;
+    /* z-index: 10; */
+    background-color: black;
+    
+}
+.gnb{
+    width: 90vw;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.home{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+}
+
+.menu{
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+}
+
+.menu a {
+    margin-left: 20px;
+    opacity: 0.8;
+}
+
+.menu a:hover{
+    opacity: 1;
+}
+
+.mainbanner{
+    width: 100vw;
+    height: 500px;
+
+    background-color: #FEFFE3;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 160px;
+}
+
+
+.mainbanner h1{
+    text-align:center;
+    width: 100%;
+    padding: auto 0px;
+    font-family: 'neutral-face-bold';
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 90px;
+    text-align: center;
+}
+
+.textwrap{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: flex-end;
+    margin-bottom: 48px;
+}
+
+.textwrap .front{
+    font-family: 'Neutral Face';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 31px;
+    /* text-align: center; */
+   
+    color: #333333;
+}
+
+.textwrap .back{
+    font-family: 'Neutral Face';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    /* text-align: center; */
+  
+    color: #333333;
+}
+
+.peoplewrap{
+    /* display: block; */
+    /* clear: both; */
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+
+    flex-wrap: wrap;
+    flex:2;
+  
+    gap: 0px 20px;
+
+}
+
+.peoplecon1{
+    width: 590px;
+    height: 488px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.peoplecon1 .img1{
+    width: 590px;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1620403724129-23fc81e1e0df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    object-fit: cover;
+}
+
+.peoplecon1 .img4{
+    width: 590px;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1577190651915-bf62d54d5b36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80");
+    background-size: cover;
+    object-fit: cover;
+}
+
+.peoplecon1 .title, .peoplecon2 .title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #3D3D3D;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.peoplecon1 .subtitle, .peoplecon2 .subtitle{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #606060;
+}
+
+
+.peoplecon2{
+    width: 590px;
+    height: 891px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.peoplecon2 .img2{
+    width: 590px;
+    height: 803px;
+    background-image: url("https://images.unsplash.com/photo-1615339725569-80172615f345?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-size: cover;
+    object-fit: cover;
+
+}
+.peoplecon2 .img3{
+    width: 590px;
+    height: 803px;
+    background-image: url("https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2728&q=80");
+    background-size: cover;
+    object-fit: cover;
+
+}
+.footer {
+    clear: both;
+    padding-top:28px;
+    width: 100vw;
+    height: 44px;
+    text-align: center;
+    background-color: black;
+    color:#FFFFFF;
+    font-size: 12px;
+  }
+
